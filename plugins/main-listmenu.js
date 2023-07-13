@@ -7,7 +7,7 @@ import moment from 'moment-timezone'
 import os from 'os'
 import fs from 'fs'
 import fetch from 'node-fetch'
-let emot = `${pickRandom(['⎔', '✦', '⭑', 'ᯬ', '⭔', '◉', '⬟', '▢', '᭻', '»', '〆', '々', '⛥', '✗', '⛊', '⚝', '⚚', '♪'])}`
+let emot = `${pickRandom(['✗', '々', '❖', '❐', '✎'])}`
 
 let tags = {} // Edit Sendiri:v
 const defaultMenu = {
@@ -171,8 +171,8 @@ let hariRayaramadan = new Date('April 21, 2023 23:59:59')
           ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
             return menu.help.map(help => {
               return body.replace(/%cmd/g, menu.prefix ? help : '%_p' + help)
-                .replace(/%islimit/g, menu.limit ? 'Ⓛ' : '')
-                .replace(/%isPremium/g, menu.premium ? 'Ⓟ' : '')
+                .replace(/%islimit/g, menu.limit ? '🅛' : '')
+                .replace(/%isPremium/g, menu.premium ? '🅟' : '')
                 .trim()
             }).join('\n')
           }),
