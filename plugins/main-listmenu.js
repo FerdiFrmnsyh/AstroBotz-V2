@@ -7,36 +7,36 @@ import moment from 'moment-timezone'
 import os from 'os'
 import fs from 'fs'
 import fetch from 'node-fetch'
-let emot = `${pickRandom(['✗', '々', '❖', '❐', '✎'])}`
+let emot = `${pickRandom(['⎔', '✦', '⭑', 'ᯬ', '⭔', '◉', '⬟', '▢', '᭻', '»', '〆', '々', '⛥', '✗', '⛊', '⚝', '⚚', '♪'])}`
 
 let tags = {} // Edit Sendiri:v
 const defaultMenu = {
 before: `
 
-╭─────═[ ASTROBOT MD ]═─────⋆
+╭─────═[ 𝓐𝓼𝓽𝓻𝓸𝓑𝓸𝓽𝔃 𝓜𝓓 ]═─────⋆
 │╭───────────────···
-┴│々「 Hai Kak 👋 」
-⬡│々 %name
-⬡│々 %ucpn
+┴│〆「 𝓱𝓪𝓵𝓵𝓸 𝓴𝓪𝓴 👋 」
+⬡│〆 *%name*
+⬡│〆 *%ucpn*
 │╰────────────────···
-┠─────═[ WAKTU ]═─────⋆
+┠─────═[ 𝓦𝓪𝓴𝓽𝓾 ]═─────⋆
 │╭────────────────···
-⬡│々 Tanggal: %week %weton
-⬡│々 Date: %date
-⬡│々 Tanggal Islam: %dateislamic
-┬│々 Waktu : %time
+⬡│〆 ᴛᴀɴɢɢᴀʟ : *%week %weton*
+⬡│〆 ᴅᴀᴛᴇ : *%date*
+⬡│〆 ᴛᴀɴɢɢᴀʟ ɪsʟᴀᴍ : *%dateislamic*
+┬│〆 ᴡᴀᴋᴛᴜ : *%time*
 │╰────────────────···
-┠─────═[ INFO USER ]═─────⋆
+┠─────═[ 𝓘𝓷𝓯𝓸 𝓤𝓼𝓮𝓻 ]═─────⋆
 │╭────────────────···
-┴│々 Nama: %name
-⬡│々 Tag: %tag
-⬡│々 Premium: %prems
-⬡│々 Limit: %limit
-┬│々 Money: %money
+┴│〆 ɴᴀᴍᴀ : *%name*
+⬡│〆 ᴛᴀɢ : *%tag*
+⬡│〆 ᴘʀᴇᴍɪᴜᴍ : *%prems*
+⬡│〆 ʟɪᴍɪᴛ : *%limit*
+┬│〆 ᴍᴏɴᴇʏ : ^%money*
 │╰────────────────···
 ╰──────────═┅═──────────
 
- ⏤͟͟͞͞★ *DAFTAR MENU BOT*
+ ★ *𝑫𝒂𝒇𝒕𝒂𝒓 𝑴𝒆𝒏𝒖 𝑩𝒐𝒕*
 `.trimStart(),
   header: `❏┄━━┅┄〈〘 *%category* 〙`,
   body: `┊${emot} %cmd %isPremium %islimit`,
@@ -45,7 +45,7 @@ before: `
 }
 
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
-let tex = `Hallo @${m.sender.split('@')[0]} 👋`
+let tex = `𝑯𝒂𝒍𝒍𝒐 𝑲𝒂𝒌 @${m.sender.split('@')[0]} 👋`
 // Delete List Fitur
 try {
 // DEFAULT MENU
@@ -228,7 +228,7 @@ ptt: false, seconds: 0,contextInfo: {
 	mediaUrl: syt,
     mediaType: 2, 
     description: syt,
-    title: "Folow Ig Saya Kak",
+    title: "𝑭𝒐𝒍𝒍𝒐𝒘 𝑰𝑮 𝑺𝒂𝒚𝒂 𝑶𝒎",
     body: bottime,
     thumbnail: fp,
     sourceUrl: syt
@@ -258,19 +258,19 @@ contextInfo: {
 externalAdReply: {
 title: date,
 body: 'bodynya',
-thumbnailUrl: 'https://telegra.ph/file/0bc86cf65acf717bfbcf7.jpg',
-sourceUrl: "https://github.com/FerdiFrmnsyh",
+thumbnailUrl: 'https://www.dd.ci/file/f08adf158949e2b0b2183.jpg',
+sourceUrl: "https://chat.whatsapp.com/F6v2DmVhgs955sf0tYZMdU",
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
 
 //await m.reply(tex + text)  
 } catch (e) { 
-conn.reply(m.chat, 'Maaf, menu sedang error', m) 
+conn.reply(m.chat, '𝑴𝒂𝒂𝒇, 𝑴𝒆𝒏𝒖 𝑺𝒆𝒅𝒂𝒏𝒈 𝑬𝒓𝒓𝒐𝒓', m) 
 throw e 
 } } 
 
-handler.command = /^(allmenu|semuamenu|menu2)$/i   
+handler.command = /^(allmenu?)$/i   
 export default handler
 
 function pickRandom(list) {
