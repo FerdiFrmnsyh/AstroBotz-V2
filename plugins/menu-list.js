@@ -323,9 +323,9 @@ try {
 
       //------------------< MENU All>----------------
 let all = `
-Halo ${name}, ${ucapan()}, Saya adalah Bot WhatsApp yang memiliki 800+ Fitur, saya dapat membantu anda dalam tugas otomatis seperti : *membuat stiker, confes, download video/audio dari internet,  mencari lagu, stalking, dan masih banyak lagi*.
+Halo ${name}, ${ucapan()}, Saya adalah Bot WhatsApp yang memiliki 800+ Fitur, saya dapat membantu anda dalam tugas otomatis seperti : *membuat stiker, confess,  download video/audio dari internet,  mencari lagu, stalking, dan masih banyak lagi*.
 
-Jika kamu menemukan error atau fitur tidak bekerja, kamu bisa lapor ke owner agar di perbaiki dengan mengetik *#reports <teks laporan>*.
+Jika kamu menemukan error atau fitur tidak bekerja, kamu bisa lapor ke owner agar di perbaiki dengan mengetik *#reports <teks laporan*.
 
 - Info Bot Bisa Cek Profile Bot
 
@@ -358,7 +358,7 @@ renderLargerThumbnail: true
   }
 }
 handler.help = ['menu', '?']
-handler.command = /^(all|menuall|?)$/i
+handler.command = /^(all|\?)$/i
 
 handler.exp = 3
 
