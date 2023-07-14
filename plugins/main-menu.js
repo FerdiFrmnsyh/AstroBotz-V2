@@ -94,9 +94,19 @@ let math = max - xp
 let tag = await conn.getName(m.sender)
 let mot = pickRandom(["⌬", "⏣", "❐", "➪", "❖", "✡", "✯", "#", "ᯬ", "々", "✧", "✗", "✪", "✥", "➯", "✎"])
 
-let text = ` *INFO BOT*
+let text = `
+*Halo...*
+_Aku adalah Bot WhatsApp Multi Device. Aku dapat membantu dalam mengerjakan tugas otomatis seperti : Membuat Sticker, Download Video/Audio Internet, Menfess, Dan Masih Banyak Lagi._
+
+_Ingin lihat semua fitur bot?_ *Ketik .all*
+
+*_Mohon tidak spam, karena bot dalam tahap pengembangan, jadi bot lambat merespon !_*
+
+*Cek Info User Dibawah...*
+
+*INFO BOT*
  • Bot Name : AstroBotz
- • Developer : FrdiFrmnsyh
+ • Developer : 0823504965328
  • Tanggal : ${date}
  • Jam : ${time} WIB
  • Mode : ${mode}
@@ -115,7 +125,7 @@ let text = ` *INFO BOT*
  • Runtime : ${uptime}
  • Total Database User : ${totalreg}
 
- Untuk melihat Semua Fitur Bot Silahkan Ketik #all
+ *jangam spam kak...*
 `
 
 conn.sendMessage(m.chat, {
