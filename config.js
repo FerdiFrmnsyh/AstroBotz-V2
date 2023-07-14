@@ -46,14 +46,14 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.sig = 'https://instagram.com/xf.frdycoolzz'
 global.tautanwa = 'https://wa.me/62823504965328'
-global.sgh = 'https://github.com/frdy19' //github
-global.sgc = 'https://chat.whatsapp.com/F6v2DmVhgs955sf0tYZMdU'  //group whatsapp
+global.sgh = 'https://github.com/FerdiFrmnsyh' //github
+global.sgc = 'https://chat.whatsapp.com/DpdTsFNBpV1B8zGQqxAu4N'  //group whatsapp
 global.sdc = '-' //discord
 global.linkyt = '-'
 global.syt = '-'
 global.sfb = '-'// facebook
-global.snh = 'https://chat.whatsapp.com/F6v2DmVhgs955sf0tYZMdU'
-global.media = 'https://www.dd.ci/file/f08adf158949e2b0b2183.jpg'
+global.snh = 'https://chat.whatsapp.com/DpdTsFNBpV1B8zGQqxAu4N'
+global.media = 'https://telegra.ph/file/8364504d590d57f641a97.jpg'
 global.wame = 'https://wa.me/62823504965328'
 //⫹⫺ ╳╶┈ ⎝ NOOWNER,NOBOT,NAMAOWNER,NAMABOT  ⎞ ┈╾╴╳ ⫹⫺
 global.owner = [['62823504965328', 'ғᴇʀᴅɪ ғɪʀᴍᴀɴsʏᴀʜ', true]]
@@ -107,7 +107,7 @@ global.islamic = `${dateIslamic}`
 global.wibb = `${wktuwib}`
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ INTRO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.intro = 'https://telegra.ph/file/f156d4384a8fd3d033aa1.jpg'
+global.intro = 'https://telegra.ph/file/8364504d590d57f641a97.jpg'
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
@@ -168,7 +168,7 @@ global.salah = 'ᴊᴀᴡᴀʙᴀɴ sᴀʟᴀʜ!'
 global.dikit = "ᴅɪᴋɪᴛ ʟᴀɢɪ, sᴇᴍᴀɴɢᴀᴛ!!"
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RPG GAME ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.multiplier = 29 // The higher, The harder levelup 
+global.multiplier = 20 // The higher, The harder levelup 
 global.rpg = {
   emoticon(string) {
     string = string.toLowerCase()
@@ -243,7 +243,7 @@ global.rpg = {
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WEBSITE APIKEY ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.zenzkey = 'b8040941f7'
-global.lolkey = pickRandom(["e54205a4ca2caa368cc067bb", "8e66d0934cf741bfd2182c16", "327a6596e4c4baa20c756132", "bukanitucuy14315195", "85faf717d0545d14074659ad", "ed78c137a46873c5b8e5fe3b", "zulfikarbot"])
+global.lolkey = 'SGWN'
   //'292e8d36a318282908bd07f7' // PUNYA WAHID 357d3c85079c4e0818731e6b
 // Cdgn Lolkey ed78c137a46873c5b8e5fe3b
 global.botcahx = 'df09e048'
@@ -307,8 +307,8 @@ global.optsnsfw = true // Untuk mematikan Dan Menyalakan Nsfw
 global.premnsfw = true // Nsfw Mode Premium?
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ THUMBNAIL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.fotonya1 = 'https://www.dd.ci/file/f08adf158949e2b0b2183.jpg' //ganti jadi foto bot mu
-global.fotonya2 = 'https://www.dd.ci/file/f08adf158949e2b0b2183.jpg' //ini juga ganti 
+global.fotonya1 = 'https://telegra.ph/file/8364504d590d57f641a97.jpg' //ganti jadi foto bot mu
+global.fotonya2 = 'https://telegra.ph/file/8364504d590d57f641a97.jpg' //ini juga ganti 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ Main Thumbnail ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
