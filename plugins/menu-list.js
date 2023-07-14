@@ -358,7 +358,7 @@ renderLargerThumbnail: true
   }
 }
 handler.help = ['menu', '?']
-handler.command = /^(all|\?)$/i
+handler.command = /^(all\?)$/i
 
 handler.exp = 3
 
