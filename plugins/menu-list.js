@@ -323,11 +323,11 @@ try {
 
       //------------------< MENU All>----------------
 let all = `
-Halo ${name}, ${ucapan()}, Saya adalah Bot WhatsApp yang memiliki 800+ Fitur, saya dapat membantu anda dalam tigas otomatis seperti : *membuat stiker, download video/audio dari internet,  mencari lagu, stalking, dan masih banyak lagi*.
+Halo ${name}, ${ucapan()}, Saya adalah Bot WhatsApp yang memiliki 800+ Fitur, saya dapat membantu anda dalam tugas otomatis seperti : *membuat stiker, confes, download video/audio dari internet,  mencari lagu, stalking, dan masih banyak lagi*.
 
-Jika kamu menemukan error atau fitur tidak bekerja, kamu bisa lapor ke owner agar di perbaiki dengan mengetik *#reports <teks laporan*.
+Jika kamu menemukan error atau fitur tidak bekerja, kamu bisa lapor ke owner agar di perbaiki dengan mengetik *#reports <teks laporan>*.
 
-- *Info Bot Bisa Cek Profile Bot*
+- Info Bot Bisa Cek Profile Bot
 
 *Databases :* ${totalreg}
 *Baileys :* Multi Device
@@ -340,7 +340,7 @@ text: all + readMore + '\n\n' + text,
 contextInfo: {
 externalAdReply: {
 title: v,
-thumbnailUrl: "https://telegra.ph/file/8364504d590d57f641a97.jpg",
+thumbnailUrl: "https://telegra.ph/file/8c47c0717b8e438194356.jpg",
 sourceUrl: sgc,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -358,7 +358,7 @@ renderLargerThumbnail: true
   }
 }
 handler.help = ['menu', '?']
-handler.command = /^(all|\?)$/i
+handler.command = /^(all|menuall|?)$/i
 
 handler.exp = 3
 
