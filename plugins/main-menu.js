@@ -92,10 +92,9 @@ let date = d.toLocaleDateString(locale, {
   let id = m.chat;
 let math = max - xp
 let tag = await conn.getName(m.sender)
-let mot = pickRandom(["⌬", "⏣", "❐", "➪", "❖", "✡", "✯", "#", "ᯬ", "々", "✧", "✗", "✪", "✥", "➯", "✎"])
+let mot = pickRandom([ "✗", "々", "❖", "❐", "✎"])
 
-let text = `
-*Halo...*
+let text = `_Halo..👋_
 _Aku adalah Bot WhatsApp Multi Device. Aku dapat membantu dalam mengerjakan tugas otomatis seperti : Membuat Sticker, Download Video/Audio Internet, Menfess, Dan Masih Banyak Lagi._
 
 _Ingin lihat semua fitur bot?_ *Ketik .all*
@@ -125,8 +124,7 @@ _Ingin lihat semua fitur bot?_ *Ketik .all*
  • Runtime : ${uptime}
  • Total Database User : ${totalreg}
 
- *jangam spam kak...*
-`
+ *jangam spam kak...*`
 
 conn.sendMessage(m.chat, {
 text: text,
@@ -134,15 +132,15 @@ contextInfo: {
 externalAdReply: {
 title: v,
 body: 'bodynya',
-thumbnailUrl: "https://www.dd.ci/file/f08adf158949e2b0b2183.jpg",
-sourceUrl: "https://chat.whatsapp.com/F6v2DmVhgs955sf0tYZMdU",
+thumbnailUrl: "https://telegra.ph/file/8364504d590d57f641a97.jpg",
+sourceUrl: "https://chat.whatsapp.com/DpdTsFNBpV1B8zGQqxAu4N",
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
 }
 handler.help = ['menu', 'help']
 handler.tags = ['main']
-handler.command = /^(menu|help)$/i
+handler.command = /^(menu|help|bot)$/i
 export default handler
 function pickRandom(list) {
 return list[Math.floor(list.length * Math.random())]  
