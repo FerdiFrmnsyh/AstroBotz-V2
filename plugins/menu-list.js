@@ -323,24 +323,23 @@ try {
 
       //------------------< MENU All>----------------
 let all = `
-Halo ${name}, ${ucapan()}, Saya adalah Bot WhatsApp yang memiliki 800+ Fitur, saya dapat membantu anda dalam tugas otomatis seperti : *membuat stiker, confess,  download video/audio dari internet,  mencari lagu, stalking, dan masih banyak lagi*.
+Hello ${name}, ${ucapan()}, I am a WhatsApp botz that comes with cool features like download tiktok, create stickers, search for songs, and much more I'm here to help you, in various ways, including sending, and etc. The available features are below
 
-Jika kamu menemukan error atau fitur tidak bekerja, kamu bisa lapor ke owner agar di perbaiki dengan mengetik *#reports <teks laporan*.
+ *Databases* : ${totalreg}
+ *Baileys:* Multi Device
+ 
+If you find an error, report it immediately by typing .reports good afternoon owner of the download-ig error feature! fix it!
 
-- Info Bot Bisa Cek Profile Bot
-
-*Databases :* ${totalreg}
-*Baileys :* Multi Device
-
-*Info Command*
-🅟 = *Khusus user Premium*
-🅛 = *Menggunakan Limit*`
+ *INFO CMD*
+     
+*Ⓟ* = Premium
+*Ⓛ* = Limit`
 conn.sendMessage(m.chat, {
 text: all + readMore + '\n\n' + text,
 contextInfo: {
 externalAdReply: {
 title: v,
-thumbnailUrl: "https://telegra.ph/file/8c47c0717b8e438194356.jpg",
+thumbnailUrl: "https://telegra.ph/file/41987c2ff1eeb0c667fbf.png",
 sourceUrl: sgc,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -348,7 +347,7 @@ renderLargerThumbnail: true
    
       await conn.sendMessage(m.chat, {
         react: {
-            text: "🐸",
+            text: "💌",
             key: m.key,
         }
     })
@@ -358,7 +357,7 @@ renderLargerThumbnail: true
   }
 }
 handler.help = ['menu', '?']
-handler.command = /^(all\?)$/i
+handler.command = /^(all|\?)$/i
 
 handler.exp = 3
 
