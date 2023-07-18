@@ -10,7 +10,7 @@ await m.reply(`- Family100 : *500.000 *Exp*
 - Tebakan : *50000 *Exp*
 - Tebak Anime : *600000 *Exp*
 - Tebak Gambar : *100000 *Exp*
-- Tebak Bendera : *30090 *Exp*
+- Tebak Bendera : *999999 *Exp*
 - Tebak Game : *79999 *Exp*
 - Tebak Kabupaten : *89999 *Exp*
 - Tebak Jenaka : *67888 *Exp*

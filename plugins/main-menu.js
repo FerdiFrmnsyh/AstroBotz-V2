@@ -105,7 +105,7 @@ _Ingin lihat semua fitur bot?_ *Ketik .all*
 
 *INFO BOT*
  • Bot Name : AstroBotz
- • Developer : 0823504965328
+ • Developer : 6281346214917
  • Tanggal : ${date}
  • Jam : ${time} WIB
  • Mode : ${mode}
